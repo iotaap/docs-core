@@ -1,7 +1,7 @@
 # Project information
 site_name: 'IoTaaP Core Library'
 site_description: 'IoTaaP Core Library Documentation'
-repo_url: 'https://github.com/iotaap/iotaap-core'
+repo_url: 'https://github.com/iotaap/docs-core'
 nav:
   - Home: index.md
           
