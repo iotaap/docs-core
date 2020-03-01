@@ -4,6 +4,9 @@ site_description: 'IoTaaP Core Library Documentation'
 repo_url: 'https://github.com/iotaap/docs-core'
 nav:
   - Home: index.md
+  - IoTaaP: iotaap-class.md
+  - ADC: adc.md
+  - Buzzer: buzzer.md
           
 # Copyright
 copyright: 'Copyright IoTaaP'
