@@ -43,7 +43,7 @@ Subscribes to **IoTaaP** API topics and enables Serial function.
 ###  keepAlive()
 Keep the connection with MQTT alive, and reconnect if lost. Should be put in the main loop.
 #### Returns
-- uint16_t Returns 2 if succesfully reconnected, returns 0 if there was a problem and returns 1 if already connected
+- `(uint16_t)` Returns 2 if succesfully reconnected, returns 0 if there was a problem and returns 1 if already connected
 
 ### publish()
 Publish payload to the specified topic.

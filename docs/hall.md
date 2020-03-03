@@ -9,4 +9,4 @@
 ### read()
 Reads onboard hall sensor value.
 #### Returns
-- int Value for HALL sensor (without LNA)
+- `(int)` Value for HALL sensor (without LNA)

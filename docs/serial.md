@@ -9,7 +9,7 @@
 ### getString()
 Reads data from UART. This function is non-blocking and it will break if delimiter is not received within 1000mS after the last character.
 #### Returns
-- String Returns data received on UART
+- `(String)` Returns data received on UART
 
 ### getStringUntil()
 Reads data from UART until delimiter char received. This function is non-blocking and it will break if delimiter is not received within 1000mS after the last character.
@@ -17,7 +17,7 @@ Reads data from UART until delimiter char received. This function is non-blockin
 - **delimiter**	Termination character
 
 #### Returns
-- String Returns data received on UART
+- `(String)` Returns data received on UART
 
 ### init()
 Initializes UART port with specified baud.
@@ -27,7 +27,7 @@ Initializes UART port with specified baud.
 ### isAvailable()
 Checks if data is available on serial port.
 #### Returns
-- int Returns value different than 0 if true
+- `(int)` Returns value different than 0 if true
 
 ### printLn()
 Prints one line string to UART.
@@ -37,7 +37,7 @@ Prints one line string to UART.
 ### readChar()
 Reads one character from UART buffer.
 #### Returns
-- int Character read
+- `(int)` Character read
 
 ### writeChar()
 Writes one character to the UART.
@@ -45,6 +45,6 @@ Writes one character to the UART.
 - **ch** Character to be written
 
 #### Returns
-- size_t Number of written characters
+- `(size_t)` Number of written characters
 
 

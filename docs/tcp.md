@@ -17,7 +17,7 @@ Connects to the TCP server.
 - **port**	Host port
 
 #### Returns
-WiFiClient Returns configured WiFiClient object or empty object if there was a problem
+`(WiFiClient)` Returns configured WiFiClient object or empty object if there was a problem
 
 ### readString()
 Reads string from TCP until delimiter is received.
@@ -25,7 +25,7 @@ Reads string from TCP until delimiter is received.
 - **delimiter**	Delimiter character
 
 #### Returns
-- String Returns received payload
+- `(String)` Returns received payload
 
 ### send()
 Sends payload to opened TCP connection.

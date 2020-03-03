@@ -23,7 +23,7 @@ Clears the pin (LOW state)
 ### getBatteryPercentage()
 Returns current battery percentage.
 #### Returns
-- double Battery percentage
+- `(double)` Battery percentage
 
 ### getBUT1()
 Reads state of Button1.

@@ -21,7 +21,7 @@ Returns SSID of discovered network.
 - **i**	Specify from which network item want to get the information
 
 #### Returns
-- String SSID string of the specified item on the networks scanned list
+- `(String)` SSID string of the specified item on the networks scanned list
 
 ### openAP()
 Opens WiFi access point with provided credentials. If password is not provided AP will be open. AP IP: 192.168.8.1.
@@ -30,10 +30,10 @@ Opens WiFi access point with provided credentials. If password is not provided A
 - **password**	AP Password (optional)
 
 #### Returns
-- IPAddress Returns local IP address if successfully opened or empty IPAddress if not
+- `(IPAddress)` Returns local IP address if successfully opened or empty IPAddress if not
 
 ### scan()
 Scans for open WiFi networks and returns number of networks discovered.
 
 #### Returns
-- int Number of networks discovered
+- `(int)` Number of networks discovered
