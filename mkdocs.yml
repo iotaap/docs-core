@@ -7,8 +7,6 @@ nav:
   - IoTaaP: iotaap-class.md
   - ADC: adc.md
   - Buzzer: buzzer.md
-<<<<<<< HEAD
-=======
   - DAC: dac.md
   - Hall: hall.md
   - Misc: misc.md
@@ -18,7 +16,6 @@ nav:
   - Serial: serial.md
   - TCP: tcp.md
   - WiFi: wifi.md
->>>>>>> 526696c60648c5ed12c9315297394636d9004cf7
           
 # Copyright
 copyright: 'Copyright IoTaaP'
