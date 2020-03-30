@@ -11,6 +11,7 @@ Connects to the WiFi AP.
 #### Parameters
 - **ssid**	AP SSID
 - **pass**	AP Password
+- **restartOnFail** System will reboot if WiFi connection fails (default: false)
 
 #### Returns
 - **wifiConnectionInfo** Returns structure containing status 1 and IP address if connected successfully, or status -1 and IP 0.0.0.0 if there was a problem
