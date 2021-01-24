@@ -1,6 +1,6 @@
 # IoTaaP Class Reference
 
-## Constructor
+## Constructor 
 
 **IoTaaP_ADC ()** - Construct a new IoTaaP_ADC object.
 
