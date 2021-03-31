@@ -1,5 +1,10 @@
 # IoTaaP Core Library
 
+!!! warning "Switching to IoTaaP OS"
+    Please be aware that this library is deprecated and we have introduced IoTaaP OS from 2021-01-29, and for any new project
+    we recommend using IoTaaP OS, although IoTaaP Core will still be available.
+    [**IoTaaP OS is on GitHub**](https://github.com/iotaap/iotaap-os)
+
 IoTaaP Core Library speeds your development by providing you simple to use functions for all IoTaaP board features.
 
 ## Core Library Reference
